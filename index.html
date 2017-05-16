@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="validate.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <form class="">
+      <div class="row">
+
+        <div class="col-sm-10 col-sm-10-offset-1 mainContent">
+          <div class="col-sm-12 candInfo">
+            <h1><span>1</span>Candidate Info</h1>
+            <div class="name-error error"></div>
+            <input type="text" placeholder="Your Name *" class="name">  
+            <div class="email-error error"></div>
+            <input type="email" placeholder="Your Email *" class="email">
+            <textarea rows="2" placeholder="About yourself"></textarea>
+            <h3>How Many Interests:</h3>
+            <select class="interests">
+              <option>None</option>
+              <option>Many</option>
+              <option>Some</option>
+              <option>Very few</option>
+            </select>
+          </div>
+
+          <div class="additInfo">
+            <h1><span>2</span>Additional Info</h1>
+            <textarea rows="2" placeholder="About Your School" class="school"></textarea>
+            <input type="submit" value="Apply">
+          </div>
+
+        </div>
+        
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
